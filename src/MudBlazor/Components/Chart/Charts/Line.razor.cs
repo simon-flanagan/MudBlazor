@@ -45,7 +45,7 @@ namespace MudBlazor.Charts
                 {
                     numValues = item.Data.Length;
                 }
-                foreach (int i in item.Data)
+                foreach (var i in item.Data)
                 {
                     if (maxY < i)
                     {
