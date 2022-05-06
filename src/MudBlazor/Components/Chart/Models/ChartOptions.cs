@@ -5,7 +5,7 @@
         /// <summary>
         /// Spacing of Y-axis ticks.
         /// </summary>
-        public int YAxisTicks { get; set; } = 20;
+        public double YAxisTicks { get; set; } = 20;
 
         /// <summary>
         /// Maximum number of Y-axis ticks. The ticks will be thinned out if the value range is leading to too many ticks.
